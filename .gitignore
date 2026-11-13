@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Downloaded datasets
+tcav_data/
+
+# Generated experiment outputs and large files
+tcav_outputs/
+*.pt
+*.pth
+*.zip
+
+# Logs and temporary files
+*.log
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary snapshots and previous experiment backups
+_latest_colab/
+_previous_results_backup/
+_previous_tcav_outputs/
+_review_bundle/
+
+# Generated folder listings
+folder_structure*.txt
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Jupyter temporary files
+.ipynb_checkpoints/
